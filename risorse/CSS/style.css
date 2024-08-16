@@ -6,6 +6,13 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     background-color: cornsilk;
 }
+.contenuto {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.contenuto h2 {
+    font-family:Arial, Helvetica, sans-serif;
+}
+
 
 .wrapper {
     display: flex;
@@ -126,15 +133,21 @@ body {
 }
 /* Layout a colonne */
 .colonne {
-    column-count: 2;
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Due colonne di uguale larghezza */
     column-gap: 20px;
     width: 100%;
     
 }
 .colonna {
+    box-sizing: border-box;
     background-color: linen;
     float: left;
     margin-top: 10px;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+    
 }
 .colonna h2 {
     padding: 10px;
@@ -146,11 +159,11 @@ body {
     margin: 10px;
 }
 .colonna img {
-    align-items: center;
+    margin: 0 auto;
     width: 300px;
     height: 200px;
-    float: left;
     padding: 10px;
+    float: left;
 }
 
 /* Responsivita' del sito in base allo schermo */
@@ -164,7 +177,7 @@ body {
 
 @media screen and (max-width: 950px) {
     .colonne {
-        column-count: 1;
+        grid-template-columns: 1fr; /* Una colonna */
     }
     .colonna img {
         display: block;

@@ -12,8 +12,6 @@ body {
 .contenuto h2 {
     font-family:Arial, Helvetica, sans-serif;
 }
-
-
 .wrapper {
     display: flex;
     min-height: 100vh;
@@ -82,7 +80,6 @@ body {
     position: -webkit-sticky; /* Per il browser Safari */
     position: sticky;
     top: 50px; 
-    
     padding-top: 10px;
     box-shadow: 0 10px 7px rgba(0, 0, 0, 0.4);
 }
@@ -137,7 +134,6 @@ body {
     grid-template-columns: 1fr 1fr; /* Due colonne di uguale larghezza */
     column-gap: 20px;
     width: 100%;
-    
 }
 .colonna {
     box-sizing: border-box;
@@ -158,6 +154,8 @@ body {
     font-size: 15px;
     margin: 10px;
 }
+
+
 .colonna img {
     margin: 0 auto;
     width: 300px;
@@ -165,11 +163,17 @@ body {
     padding: 10px;
     float: left;
 }
+.pres{
+    margin: 0 auto;
+    width: 600px !important;
+    height: 400px !important;
+    padding: 10px;
+    float: left;
+}
 
 /* Responsivita' del sito in base allo schermo */
 /* centra le immagini nei contenuti delle colonne e sposta il testo sotto l'immagine*/
 @media(max-width: 1400px) {
-    
     p{
         clear: both;
     }
@@ -179,10 +183,17 @@ body {
     .colonne {
         grid-template-columns: 1fr; /* Una colonna */
     }
-    .colonna img {
-        display: block;
+    .colonna{
+        display: grid;
         justify-content: center;
     }
+    .colonna img {
+        margin: 0 auto !important;
+        width: 100% !important;
+        height: auto;
+        padding: 10px;
+    }
+    
 }
 /* rimuove il menu laterale quando si usano smartphone */
 @media (max-width: 750px) {

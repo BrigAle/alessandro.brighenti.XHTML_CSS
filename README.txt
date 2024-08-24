@@ -1,3 +1,7 @@
+ricordi di curare la validita` delle pagine.
+Una delle cose che dira` (nei prossimi, questo lo chiudo positivamente) sara` di spiegare come ha controllato che le pagine che pruce la sua applicazione web siano valide e cosa e perche' rimane non valido (if any).
+... scrivo qui per chiudere il primo issue ...
+
 Membri del gruppo:
 Alessandro Brighenti - brighenti.1783767@studenti.uniroma1.it
 

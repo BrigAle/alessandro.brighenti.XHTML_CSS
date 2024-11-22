@@ -1,3 +1,7 @@
+ricordi di curare la validita` delle pagine.
+Una delle cose che dira` (nei prossimi, questo lo chiudo positivamente) sara` di spiegare come ha controllato che le pagine che pruce la sua applicazione web siano valide e cosa e perche' rimane non valido (if any).
+... scrivo qui per chiudere il primo issue ...
+
 Membri del gruppo:
 Alessandro Brighenti - brighenti.1783767@studenti.uniroma1.it
 
@@ -27,3 +31,4 @@ Le principali proprietà CSS utilizzate sono:
 Nella homepage del sito ho scelto un layout semplice per una descrizione generale della tenuta.
 Nel file galleria.html, ho scelto di utilizzare un layout a griglia (grid layout) per descrivere, in ogni blocco, alcune delle stanze del castello.
 Sono state inoltre utilizzate le regole CSS @media per garantire al sito web una buona responsività su diversi formati di schermo. Il menu di navigazione si troverà sul lato sinistro della pagina se si utilizzano monitor o tablet, mentre sarà in alto alla pagina nel caso di telefoni.
+Nel file "Informazioni.html" è stato scelto di aggiungere una mappa Google creata apposta per indicare la posizione del luogo; Google consente di incorporare su un sito personale le mappe personali create su MyMaps al seguente link: https://www.google.com/maps/d/u/0/, per questa scelta mi sono ispirato ad alcuni siti web con la propria posizione visualizzabile in anteprima.

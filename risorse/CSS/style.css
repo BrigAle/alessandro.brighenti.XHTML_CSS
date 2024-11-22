@@ -46,17 +46,18 @@ body {
 
 /* titolo */
 .titolo {
-    padding-top: 40px;
     padding-left: 0px;
     padding-right: 0px;
     margin-top: 0px;
 }
-.titolo header {
+
+.titolo h1 {
+    margin: 0px;
     background: #4CAF50;
     color: white;
     text-align: center;
-    padding: 10px;
-    font-size: 20px;
+    padding: 40px;
+    font-size: 40px;
 }
 
 /* container con menu' laterale per Tablet e desktop */
@@ -202,9 +203,16 @@ body {
     }
 
     .titolo {
+        padding-top: 40px;
         margin-top: 0;
     }
 
+}
+@media (max-width: 900px) {
+    .maps{
+        width: 90%;
+        height: auto;
+    }
 }
 /* rimuove il menu'in alto quando si usano monitor o tablet */
 @media (min-width: 750px) {
@@ -212,10 +220,16 @@ body {
         display: none;
     }
     .titolo {
-        padding-top: 0px;
         margin-top: 0;
     }
-    
+
+}
+@media (min-width: 900px) {
+
+    .maps{
+        height: 500px; 
+        width: 650px; 
+    }
 }
 
 /* Stile per il pie' di pagina */
